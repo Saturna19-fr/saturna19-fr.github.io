@@ -1,3 +1,6 @@
+console.log("AZ")
+
+
 let myBtn = document.getElementById("Button1")
 let heading = document.querySelector('h1')
 function setUN() {
@@ -7,5 +10,6 @@ function setUN() {
 }
 
 myBtn.addEventListener('click', function(){
+    console.log("AZ");
 setUN();
 })
