@@ -1,3 +1,6 @@
+console.log("AZ")
+
+
 let myBtn = document.getElementById("Button1")
 let heading = document.querySelector('h1')
 let paragraphe = document.querySelector('p')
@@ -9,6 +12,7 @@ function setUN() {
 }
 
 myBtn.addEventListener('click', function(){
+    console.log("AZ");
 setUN();
 clicks = clicks + 1
 paragraphe.textContent = 'Nb de clics = ' + clicks;
