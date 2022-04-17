@@ -16,5 +16,4 @@ myBtn.addEventListener('click', function(){
     clicks = clicks + 1
 paragraphe.textContent = 'Nb de clics = ' + clicks;
 setUN();
-
 })
