@@ -13,7 +13,8 @@ function setUN() {
 
 myBtn.addEventListener('click', function(){
     console.log("AZ");
-setUN();
-clicks = clicks + 1
+    clicks = clicks + 1
 paragraphe.textContent = 'Nb de clics = ' + clicks;
+setUN();
+
 })
